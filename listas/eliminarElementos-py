@@ -1,0 +1,16 @@
+# lista = [1,2,3,4,5,"antony","Pedro","antony"]
+
+# lista.pop(6)
+# lista.remove("antony")
+# lista.remove("antony")
+# lista.clear()
+# print(lista)
+
+lista = [1,5,7,8,9,6,4,3,2]
+
+# lista.sort()
+
+# lista.reverse()
+
+lista.sort(reverse=True)
+print(lista)
