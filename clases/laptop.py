@@ -30,6 +30,15 @@ class Laptop:
         else:
             return "Los costos son diferentes"
     
+    def realizarInformeUso(self):
+        resultadoInforme={
+            "Tipo de uso" : "Generica",
+            "Uso recomendado" : "Tareas cotidianas",
+            "Horas de uso" : 5,
+            "Diagnostico actual" : self.realizarDiagnosticoSistema()
+        }
+        return resultadoInforme
+
     @classmethod
     def asusLaptop(cls,costo):
         marca = "asus"
